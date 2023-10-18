@@ -10,6 +10,9 @@
             background-color: #f0f0f0;
             margin: 0;
             padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
         }
         header {
             background-color: #3498db;
@@ -27,7 +30,7 @@
             padding: 20px;
             background-color: #fff;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-             flex: 1;
+            flex: 1; /* Para ocupar el espacio restante vertical */
         }
         footer {
             background-color: #3498db;
