@@ -27,6 +27,7 @@
             padding: 20px;
             background-color: #fff;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+             flex: 1;
         }
         footer {
             background-color: #3498db;
