@@ -3,58 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cómputo en la Nube</title>
+    <title>Computación en la Nube</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
+            text-align: left;
             margin: 0;
             padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Asegura que el cuerpo ocupa al menos toda la altura de la ventana */
         }
+
         header {
-            background-color: #3498db;
-            color: #fff;
+            background-color: #3498DB;
             text-align: center;
             padding: 20px;
         }
-        h1 {
+
+        header h1 {
             font-size: 36px;
-            margin: 0;
+            color: white;
         }
+
         .container {
-            max-width: 800px;
-            margin: 20px auto;
+            width: 80%;
+            margin: 0 auto;
             padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
+
+        p {
+            font-size: 18px;
+        }
+
         footer {
             background-color: #3498DB;
             text-align: center;
             padding: 10px;
-            margin-top: auto; /* Hace que el footer quede pegado en la parte inferior */
+            margin-top: auto;
         }
 
         footer p {
             font-size: 14px;
             color: white;
-
+        
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Cómputo en la Nube</h1>
+        <h1>¿Qué es la Computación en la Nube?</h1>
     </header>
-    <div class="container content">
-        <h2>¿Qué es el Cómputo en la Nube?</h2>
-        <p>El cómputo en la nube es un modelo que permite el acceso a recursos de cómputo, como servidores, almacenamiento, bases de datos, redes y software a través de Internet. Esto permite a las organizaciones escalar y utilizar recursos de manera más eficiente, reduciendo costos y mejorando la flexibilidad. En resumen, el cómputo en la nube ofrece servicios tecnológicos bajo demanda.</p>
-        <img src="CC.jfif" alt="" style="height: 200px; width:185px; display: block; margin: 0 auto;">
+    
+    <img src="img/CC.jfif" alt="" style="height: 200px; width:200px; display: block; margin: 0 auto; margin-top: 20px;">
+    <div class="container">
+        <p>La computación en la nube es una forma de guardar y acceder a tus datos y programas en línea, en lugar de en tu computadora. Es como tener una mochila mágica que puedes llevar a todas partes.</p>
+        
+        <p>Con la nube, puedes guardar fotos, documentos y juegos en Internet, y luego verlos desde cualquier dispositivo con acceso a Internet, como tu computadora, tableta o teléfono.</p>
     </div>
-     
-    <footer> 
-        <p>
-        &copy; 2023 Cómputo en la Nube, Avila Perez Jauiel, Acosta Flores Jose Hazael.
+
+    <footer>
+        <p>¡Explora el mundo de la nube y descubre sus ventajas!<br>
+            © 2023 Cómputo en la Nube, Avila Perez Jauiel, Acosta Flores Jose Hazael.
         </p>
     </footer>
 </body>
