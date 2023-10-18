@@ -43,8 +43,9 @@
         .centered-image {
             display: block;
             margin: 0 auto;
-            border: 2px solid #3498db;
+            border: 4px solid #3498db;
             border-radius: 10px;
+            text-align: center;
         }
     </style>
 </head>
