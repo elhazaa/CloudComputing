@@ -28,24 +28,17 @@
             background-color: #fff;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        .content {
-            padding-bottom: 60px; /* Ajustar según el tamaño del footer */
-        }
         footer {
-            position: absolute;
-            bottom: 0;
-            width: 100%;
-            background-color: #3498db;
-            color: #fff;
+            background-color: #3498DB;
             text-align: center;
             padding: 10px;
+            margin-top: auto; /* Hace que el footer quede pegado en la parte inferior */
         }
-        .centered-image {
-            display: block;
-            margin: 0 auto;
-            border: 4px solid #3498db;
-            border-radius: 10px;
-            text-align: center;
+
+        footer p {
+            font-size: 14px;
+            color: white;
+
         }
     </style>
 </head>
@@ -56,11 +49,11 @@
     <div class="container content">
         <h2>¿Qué es el Cómputo en la Nube?</h2>
         <p>El cómputo en la nube es un modelo que permite el acceso a recursos de cómputo, como servidores, almacenamiento, bases de datos, redes y software a través de Internet. Esto permite a las organizaciones escalar y utilizar recursos de manera más eficiente, reduciendo costos y mejorando la flexibilidad. En resumen, el cómputo en la nube ofrece servicios tecnológicos bajo demanda.</p>
-        <img src="CC.jfif" alt="CloudComputing" class="centered-image" width="400" height="300">
+        <img src="CC.jfif" alt="" style="height: 400px; width:400px; display: block; margin: 0 auto;">
     </div>
      
     <footer>
-        &copy; 2023 Cómputo en la Nube, Avila Perez Jauiel, Acosta Flores Jose Hazael, Cruz Benitez Carlos Rene.
+        &copy; 2023 Cómputo en la Nube, Avila Perez Jauiel, Acosta Flores Jose Hazael.
     </footer>
 </body>
 </html>
