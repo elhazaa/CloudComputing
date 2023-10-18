@@ -10,9 +10,6 @@
             background-color: #f0f0f0;
             margin: 0;
             padding: 0;
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
         }
         header {
             background-color: #3498db;
@@ -30,9 +27,14 @@
             padding: 20px;
             background-color: #fff;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            flex: 1; /* Para ocupar el espacio restante vertical */
+        }
+        .content {
+            padding-bottom: 60px; /* Ajustar según el tamaño del footer */
         }
         footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
             background-color: #3498db;
             color: #fff;
             text-align: center;
@@ -44,7 +46,7 @@
     <header>
         <h1>Cómputo en la Nube</h1>
     </header>
-    <div class="container">
+    <div class="container content">
         <h2>¿Qué es el Cómputo en la Nube?</h2>
         <p>El cómputo en la nube es un modelo que permite el acceso a recursos de cómputo, como servidores, almacenamiento, bases de datos, redes y software a través de Internet. Esto permite a las organizaciones escalar y utilizar recursos de manera más eficiente, reduciendo costos y mejorando la flexibilidad. En resumen, el cómputo en la nube ofrece servicios tecnológicos bajo demanda.</p>
     </div>
