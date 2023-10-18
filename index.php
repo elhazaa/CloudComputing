@@ -40,6 +40,12 @@
             text-align: center;
             padding: 10px;
         }
+        .centered-image {
+            display: block;
+            margin: 0 auto;
+            border: 2px solid #3498db;
+            border-radius: 10px;
+        }
     </style>
 </head>
 <body>
