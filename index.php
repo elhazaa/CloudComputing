@@ -49,7 +49,7 @@
     <div class="container content">
         <h2>¿Qué es el Cómputo en la Nube?</h2>
         <p>El cómputo en la nube es un modelo que permite el acceso a recursos de cómputo, como servidores, almacenamiento, bases de datos, redes y software a través de Internet. Esto permite a las organizaciones escalar y utilizar recursos de manera más eficiente, reduciendo costos y mejorando la flexibilidad. En resumen, el cómputo en la nube ofrece servicios tecnológicos bajo demanda.</p>
-        <img src="CC.jfif" alt="" style="height: 200px; width:200px; display: block; margin: 0 auto;">
+        <img src="CC.jfif" alt="" style="height: 200px; width:100px; display: block; margin: 0 auto;">
     </div>
      
     <footer>
