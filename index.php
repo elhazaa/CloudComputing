@@ -52,8 +52,10 @@
         <img src="CC.jfif" alt="" style="height: 200px; width:185px; display: block; margin: 0 auto;">
     </div>
      
-    <footer>
+    <footer> 
+        <p>
         &copy; 2023 Cómputo en la Nube, Avila Perez Jauiel, Acosta Flores Jose Hazael.
+        </p>
     </footer>
 </body>
 </html>
