@@ -55,7 +55,6 @@
         <h1>¿Qué es la Computación en la Nube?</h1>
     </header>
     
-    <img src="CC.jfif" alt="" style="height: 200px; width:200px; display: block; margin: 0 auto; margin-top: 20px;">
     <div class="container">
         <p>La computación en la nube es una forma de guardar y acceder a tus datos y programas en línea, en lugar de en tu computadora. Es como tener una mochila mágica que puedes llevar a todas partes.</p>
         
